@@ -1,0 +1,66 @@
+/* All CSS code for Home Page */
+
+/* Navigation Bar */
+.nav-style {
+    /* background-color: black; */
+    color: black !important;
+}
+
+/* Header Section */
+.header-bg {
+    height: 75vh;
+    background-image: url(../img/home_office.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* About Section */
+.about-img {
+    max-height: 400px;
+}
+
+
+/* Skills Section */
+.section_skills {
+    background-color: var(--light-blue);
+}
+
+/* Project Section */
+.project-img {
+    height: 400px;
+}
+
+.project-img:hover {
+    transform: scale(1.2);
+    transition: ease-in-out;
+    transition-duration: 1.2s;
+}
+
+.project-img-container {
+    overflow: hidden;
+}
+
+/* Contact Section */
+.section_contact {
+    background-color: var(--light-blue);
+}
+
+/* Icons */
+.skills-icon {
+    font-size: 1.2rem;
+}
+
+.fab {
+    font-size: 1.6rem;
+}
+
+/* Buttons */
+.btn-green {
+    color: var(--olive-green);
+    border: solid var(--olive-green);
+}
+
+.btn-green:hover {
+    background-color: var(--olive-green);
+    border: solid var(--olive-green);
+}
